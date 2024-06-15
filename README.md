@@ -21,6 +21,26 @@
 
 7. Проект с исходными кодами выложить на github.com (другие ресурсы не рассматриваются).
 
+## Зависимости
+
+Для работы:
+
+```npm install node-gyp node-addon-api express```
+
+Для тестов:
+
+```npm install --save-dev jest jest-extended supertest```
+
+## Сборка
+```
+node-gyp configure      
+node-gyp build     
+```
+
+## Запуск
+
+Запустите **server.bat**
+
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />These projects are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
