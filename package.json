@@ -1,0 +1,21 @@
+{
+  "name": "user_privilege_checker",
+  "version": "1.0.0",
+  "description": "Web application to check user privileges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bezukh Vladimir",
+  "license": "by-nc-nd-4.0",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-addon-api": "^8.0.0",
+    "node-gyp": "^10.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-extended": "^4.0.2"
+  }
+}
