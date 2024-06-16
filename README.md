@@ -23,9 +23,11 @@
 
 ## Зависимости
 Для работы:
+
 ```npm install node-gyp node-addon-api express```
 
 Для тестов:
+
 ```npm install --save-dev jest jest-extended supertest```
 
 ## Сборка
