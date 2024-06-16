@@ -32,9 +32,7 @@
 ```npm install --save-dev jest jest-extended supertest```
 
 ## Сборка
-```
-node-gyp configure build     
-```
+```node-gyp configure build```
 
 ## Запуск
 
